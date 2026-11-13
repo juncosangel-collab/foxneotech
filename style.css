@@ -367,3 +367,31 @@ footer p {
     width: 100%;
     display: block;
 }
+
+
+/* VIDEO CORPORATIVO */
+.seccion-video {
+    text-align: center;
+}
+
+.descripcion-video {
+    max-width: 750px;
+    margin: -15px auto 25px;
+}
+
+.video-contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: var(--radio);
+    background: var(--color-principal);
+    box-shadow: var(--sombra);
+}
+
+.video-empresa {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background: var(--color-principal);
+}
